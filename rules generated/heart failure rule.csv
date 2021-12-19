@@ -1,0 +1,13 @@
+rules
+age <= 71.0 and serum_sodium <= 129.5 and age > 46.0 and serum_creatinine > 1.25
+age > 71.0 and serum_creatinine > 0.949999988079071 and time > 73.0 and serum_creatinine <= 1.8149999976158142
+age <= 71.0 and serum_sodium > 129.5 and serum_sodium <= 145.5 and serum_creatinine > 1.1899999976158142
+age > 71.0 and serum_creatinine <= 0.949999988079071 and time <= 46.5
+age > 71.0 and serum_creatinine > 0.949999988079071 and time <= 73.0 and serum_sodium <= 133.5
+age > 71.0 and serum_creatinine > 0.949999988079071 and time <= 73.0 and serum_sodium > 133.5
+age <= 71.0 and serum_sodium > 129.5 and serum_sodium <= 145.5 and serum_creatinine <= 1.1899999976158142
+age > 71.0 and serum_creatinine <= 0.949999988079071 and time > 46.5
+age > 71.0 and serum_creatinine > 0.949999988079071 and time > 73.0 and serum_creatinine > 1.8149999976158142
+age <= 71.0 and serum_sodium <= 129.5 and age <= 46.0
+age <= 71.0 and serum_sodium > 129.5 and serum_sodium > 145.5
+age <= 71.0 and serum_sodium <= 129.5 and age > 46.0 and serum_creatinine <= 1.25

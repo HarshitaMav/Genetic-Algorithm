@@ -1,0 +1,32 @@
+rules
+age <= 67.5 and age > 49.5 and smoking_status <= 0.5 and work_type > 2.5
+age > 67.5 and age > 77.5 and work_type <= 2.5 and age <= 80.5
+age > 67.5 and age <= 77.5 and work_type > 1.5 and smoking_status <= 0.5
+age <= 67.5 and age <= 49.5 and age > 31.5 and age <= 32.5
+age <= 67.5 and age > 49.5 and smoking_status > 0.5 and work_type <= 2.5
+age <= 67.5 and age > 49.5 and smoking_status > 0.5 and work_type > 2.5
+age > 67.5 and age <= 77.5 and work_type <= 1.5 and Residence_type > 1.5
+age > 67.5 and age <= 77.5 and work_type > 1.5 and smoking_status > 0.5
+age > 67.5 and age > 77.5 and work_type > 2.5 and Residence_type > 1.5
+age > 67.5 and age <= 77.5 and work_type <= 1.5 and Residence_type <= 1.5
+age > 67.5 and age > 77.5 and work_type > 2.5 and Residence_type <= 1.5
+age <= 67.5 and age > 49.5 and smoking_status <= 0.5 and work_type <= 2.5
+age <= 67.5 and age <= 49.5 and age <= 31.5
+age > 67.5 and age > 77.5 and work_type <= 2.5 and age > 80.5
+age <= 67.5 and age <= 49.5 and age > 31.5 and age > 32.5
+age <= 73.5 and age <= 53.5 and age > 37.5 and age <= 39.5
+age <= 73.5 and age > 53.5 and age <= 62.5 and age <= 58.5
+age > 73.5 and work_type > 2.5 and gender > 1.5 and Residence_type <= 1.5
+age <= 73.5 and age > 53.5 and age <= 62.5 and age > 58.5
+age <= 73.5 and age <= 53.5 and age <= 37.5 and work_type <= 2.5
+age <= 73.5 and age > 53.5 and age > 62.5 and smoking_status <= 2.5
+age <= 73.5 and age <= 53.5 and age <= 37.5 and work_type > 2.5
+age <= 73.5 and age > 53.5 and age > 62.5 and smoking_status > 2.5
+age > 73.5 and work_type > 2.5 and gender <= 1.5 and smoking_status > 1.5
+age > 73.5 and work_type > 2.5 and gender > 1.5 and Residence_type > 1.5
+age > 73.5 and work_type <= 2.5 and age > 76.5 and smoking_status > 0.5
+age > 73.5 and work_type > 2.5 and gender <= 1.5 and smoking_status <= 1.5
+age > 73.5 and work_type <= 2.5 and age <= 76.5 and age > 75.5
+age <= 73.5 and age <= 53.5 and age > 37.5 and age > 39.5
+age > 73.5 and work_type <= 2.5 and age <= 76.5 and age <= 75.5
+age > 73.5 and work_type <= 2.5 and age > 76.5 and smoking_status <= 0.5

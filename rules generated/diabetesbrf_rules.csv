@@ -1,0 +1,25 @@
+rules
+GenHlth > 2.5 and BMI > 30.5 and PhysHlth <= 9.5
+GenHlth > 2.5 and BMI <= 30.5 and Age <= 7.5
+GenHlth <= 2.5 and Education > 5.5 and HighBP > 0.5
+GenHlth <= 2.5 and Education <= 5.5 and HighBP > 0.5
+GenHlth <= 2.5 and Education > 5.5 and HighBP <= 0.5
+GenHlth <= 2.5 and Education <= 5.5 and HighBP <= 0.5
+GenHlth > 2.5 and BMI > 30.5 and PhysHlth > 9.5
+GenHlth > 2.5 and BMI <= 30.5 and Age > 7.5
+HighBP > 0.5 and BMI <= 31.5 and GenHlth > 2.5
+HighBP > 0.5 and BMI > 31.5 and BMI <= 35.5
+HighBP > 0.5 and BMI <= 31.5 and GenHlth <= 2.5
+HighBP <= 0.5 and GenHlth <= 2.5 and GenHlth > 1.5
+HighBP > 0.5 and BMI > 31.5 and BMI > 35.5
+HighBP <= 0.5 and GenHlth <= 2.5 and GenHlth <= 1.5
+HighBP <= 0.5 and GenHlth > 2.5 and GenHlth <= 3.5
+HighBP <= 0.5 and GenHlth > 2.5 and GenHlth > 3.5
+HighBP > 0.5 and GenHlth <= 3.5 and PhysActivity > 0.5
+HighBP <= 0.5 and DiffWalk > 0.5 and PhysActivity <= 0.5
+HighBP <= 0.5 and DiffWalk > 0.5 and PhysActivity > 0.5
+HighBP <= 0.5 and DiffWalk <= 0.5 and PhysHlth <= 4.5
+HighBP <= 0.5 and DiffWalk <= 0.5 and PhysHlth > 4.5
+HighBP > 0.5 and GenHlth > 3.5 and AnyHealthcare > 0.5
+HighBP > 0.5 and GenHlth <= 3.5 and PhysActivity <= 0.5
+HighBP > 0.5 and GenHlth > 3.5 and AnyHealthcare <= 0.5

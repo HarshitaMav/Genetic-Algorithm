@@ -1,0 +1,17 @@
+rules
+Age <= 18.5 and mental_health_interview > 0.5 and seek_help > 0.5 and family_history <= 0.5
+Age > 18.5 and supervisor <= 1.5 and benefits <= 1.5 and Age <= 38.0
+Age > 18.5 and supervisor <= 1.5 and benefits <= 1.5 and Age > 38.0
+Age <= 18.5 and mental_health_interview > 0.5 and seek_help > 0.5 and family_history > 0.5
+Age > 18.5 and supervisor > 1.5 and have a mental health disorder <= 0.5 and care_options <= 1.5
+Age > 18.5 and supervisor > 1.5 and have a mental health disorder > 0.5 and leave <= 1.5
+Age > 18.5 and supervisor <= 1.5 and benefits > 1.5 and seek_help <= 0.5
+Age > 18.5 and supervisor > 1.5 and have a mental health disorder <= 0.5 and care_options > 1.5
+Age <= 18.5 and mental_health_interview <= 0.5 and remote_work > 0.5 and supervisor > 1.5
+Age <= 18.5 and mental_health_interview <= 0.5 and remote_work <= 0.5 and have a mental health disorder > 1.5
+Age > 18.5 and supervisor <= 1.5 and benefits > 1.5 and seek_help > 0.5
+Age <= 18.5 and mental_health_interview > 0.5 and seek_help <= 0.5 and phys_health_interview > 0.5
+Age <= 18.5 and mental_health_interview <= 0.5 and remote_work > 0.5 and supervisor <= 1.5
+Age > 18.5 and supervisor > 1.5 and have a mental health disorder > 0.5 and leave > 1.5
+Age <= 18.5 and mental_health_interview <= 0.5 and remote_work <= 0.5 and have a mental health disorder <= 1.5
+Age <= 18.5 and mental_health_interview > 0.5 and seek_help <= 0.5 and phys_health_interview <= 0.5

@@ -1,0 +1,15 @@
+rules
+Age <= 27.5 and DiabetesPedigreeFunction <= 1.2545000314712524 and BloodPressure <= 84.5 and DiabetesPedigreeFunction > 0.19849999994039536
+Age > 27.5 and Age <= 63.5 and Pregnancies > 2.5 and BloodPressure > 91.0
+Age <= 27.5 and DiabetesPedigreeFunction <= 1.2545000314712524 and BloodPressure > 84.5 and BloodPressure > 97.0
+Age <= 27.5 and DiabetesPedigreeFunction > 1.2545000314712524 and Pregnancies > 2.0
+Age > 27.5 and Age <= 63.5 and Pregnancies <= 2.5 and BloodPressure <= 101.0
+Age > 27.5 and Age <= 63.5 and Pregnancies > 2.5 and BloodPressure <= 91.0
+Age <= 27.5 and DiabetesPedigreeFunction <= 1.2545000314712524 and BloodPressure > 84.5 and BloodPressure <= 97.0
+Age > 27.5 and Age > 63.5 and Age > 67.5
+Age > 27.5 and Age > 63.5 and Age <= 67.5 and BloodPressure <= 90.0
+Age <= 27.5 and DiabetesPedigreeFunction > 1.2545000314712524 and Pregnancies <= 2.0 and BloodPressure <= 65.0
+Age > 27.5 and Age <= 63.5 and Pregnancies <= 2.5 and BloodPressure > 101.0
+Age > 27.5 and Age > 63.5 and Age <= 67.5 and BloodPressure > 90.0
+Age <= 27.5 and DiabetesPedigreeFunction <= 1.2545000314712524 and BloodPressure <= 84.5 and DiabetesPedigreeFunction <= 0.19849999994039536
+Age <= 27.5 and DiabetesPedigreeFunction > 1.2545000314712524 and Pregnancies <= 2.0 and BloodPressure > 65.0
